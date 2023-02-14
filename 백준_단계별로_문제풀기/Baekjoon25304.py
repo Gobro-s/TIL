@@ -4,7 +4,7 @@ X = int(input())  # 총 금액
 N = int(input())  # 물건의 종류의 수
 
 total = 0
-for i in N:
+for i in range(N):
     price, count = map(int, input().split())
     total += price*count
 
