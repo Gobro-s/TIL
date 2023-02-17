@@ -9,15 +9,17 @@ def solve(n):
 # 스택으로 풀어보기?
 
 def solve_2(n):
-    stack = list(n)
+    stack = list(map(int,input(n)))
     result = ''
     top = -1
     while stack:
-        if not stack:
-            break
-        else:
-            stack.pop() + result
-            result += stack.pop()
-            return result
+        # if not stack:
+        #     break
+
+        result += stack.pop()
+        return result
     
 # 재귀로 풀어보기
+
+# list_a = [1,2,3]
+# print(sum(list_a))
