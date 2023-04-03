@@ -7,4 +7,4 @@ while True:
     if cnt == N:  # 몇 번째랑 N이 동일 할 때
         print(six)   # six 뽑으슈
         break   # 반복문 탈출
-    # six +=1    # six엔 왜 +=1?
+    six +=1   
