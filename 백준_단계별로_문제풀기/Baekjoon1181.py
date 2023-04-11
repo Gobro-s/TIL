@@ -1,12 +1,11 @@
-import sys
-
-N = int(sys.stdin.readline().strip())
+N = int(input())
 words=[]
 for _ in range(N):
-    word = sys.stdin.readline().strip()
-    if word not in words:
-        words.append(word)
-    words.sort()
-    words.sort(key=lambda x: len(x))
+    words.append(input())
+ans = list(set(words))
+ans.sort()
+ans.sort(key=lambda x: len(x))
 
-print(*words, sep='\n')
+# for word in words:
+#     if len(words[word]) == 
+print(*ans, sep='\n')
