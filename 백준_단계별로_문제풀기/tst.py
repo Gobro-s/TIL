@@ -1,11 +1,1 @@
-x, y, w, h = map(int, input().split())
-
-rst = []
-disx = w-x
-disy = h-y
-rst.append(disx)
-rst.append(disy)
-rst.append(x)
-rst.append(y)
-
-print(min(rst))
+orders = "아이스아메리카노,카라멜마키야또,에스프레소,아메리카노,아메리카노,아이스라떼,핫초코,아이스아메리카노,아메리카노,아이스카라멜마키야또,아이스라떼,라떼마키야또,카푸치노,라떼마키야또"
