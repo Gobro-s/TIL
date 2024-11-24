@@ -1,7 +1,9 @@
+import sys
+
 arr = [[0] for _ in range(9)]
 
 for i in range(9):
-    arr[i] = list(map(int, input().split()))
+    arr[i] = list(map(int, sys.stdin.readline().rstrip().split()))
 
 # print(arr) # [[],[],[]...] 형태로 input()
 
